@@ -1,0 +1,23 @@
+.contacy{
+    width: 40%;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 8px;
+    font-weight: 800;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(86,86,86,.9);
+}
+
+
+.text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: rgba(39,39,39,.9);
+    display: block;
+    font-family: 'Roboto';
+}

@@ -1,0 +1,68 @@
+.Merop{
+    width: 100%;
+    height:  auto;
+    background-image: url('https://taffeine.com/_nuxt/img/banner-articles.2c67873.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+
+.MeropTwo::after{
+    width: 100%;
+    height: 410px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,rgba(39,39,39,.8),#272727);
+    z-index: 1;
+}
+
+
+.MeropTwo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.text{
+    text-align: center;
+    z-index: 2;
+}
+
+
+.title{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 0;
+}
+
+
+.eve{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}

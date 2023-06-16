@@ -1,0 +1,18 @@
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  font-family: "Montserrat" ,sans-serif;
+  color: #fff;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #63ff00;
+}
+
+.title:not(:hover) {
+  color: #fff;
+}

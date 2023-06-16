@@ -1,0 +1,216 @@
+.Merop{
+    width: 100%;
+    height:  auto;
+    background-image: url('https://taffeine.com/_nuxt/img/banner-contact.d2d0e34.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+
+.MeropTwo::after{
+    width: 100%;
+    height: 410px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,rgba(39,39,39,.8),#272727);
+    z-index: 1;
+}
+
+
+.MeropTwo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.text{
+    text-align: center;
+    z-index: 2;
+}
+
+
+.titler{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 0;
+}
+
+.eve{
+    width: 100%;
+    padding: 60px 120px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.lineone {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partone{
+    width: 60%;
+    background: #f1f1f1;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+
+.linetwo{
+    width: 100%;    
+    height: 500px;
+    display: flex;
+    align-items: center    ;
+    justify-content: center;
+}
+
+
+
+
+.Map{
+    width: 100%!important;
+}
+
+
+.parttwo{
+    width: 35%;
+
+}
+
+.Mainbox{
+    width: 100%;
+    height: 640px;
+    background: #f1f1f1;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Inter';
+    line-height: 160%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 24px;
+}
+
+
+
+.box{
+}
+
+
+.content{
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: black;
+    display: block;
+    white-space: unset;
+    line-height: unset;
+    margin-bottom: 15px;
+}
+
+
+.intone{
+    width: 100%;
+    color: #212121;
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius:5px;
+    margin-bottom: 15px;
+    background: #f1f1f1;
+    font-family: 'Inter';
+}
+
+
+.inttwo{
+    width: 100%;
+    color: #212121;
+    padding: 15px 20px;
+    border-radius:5px;
+    border: 1px solid black;
+    background: #f1f1f1;
+    overflow: scroll;
+    font-family: 'Inter';
+}
+
+
+.intthree{
+    width: 100%;
+    color: #212121;
+    padding: 15px 20px;
+    min-height: 140px;
+    border-radius:5px;
+    border: 1px solid black;
+    background: #f1f1f1;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+
+.df{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #797979;
+    padding: 0;
+}
+
+
+.btn{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    font-family: 'Roboto';
+    background-color: #d6eebe;
+    color: #272727;
+}

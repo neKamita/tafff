@@ -1,0 +1,61 @@
+.MEvent {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+    
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #272727;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.line {
+    width: 100%;
+    height: 100px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns{
+    width: 18%;
+    padding: 8px 24px;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #272727;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.one{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background: #fff;   
+}
+

@@ -1,0 +1,62 @@
+.card{
+    width: 534px;
+    height: 550px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    padding: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+
+
+.ibox{
+    width: 100%;
+    height: 350px;
+    overflow:hidden;
+    margin-bottom: 12px;
+}
+
+.ibox:hover .img{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.ibox:not(:hover) .img{
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.img{
+    width: 100%;
+    height: 350px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #272727;
+    margin-bottom: 12px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #525252;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

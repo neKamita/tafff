@@ -1,0 +1,55 @@
+.card {
+    height: 550px;
+    padding: 25px;
+    background-color: #f1f1f1;
+    margin-bottom: 250px;
+}
+
+.imgcard {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 14px;
+}
+
+.img {
+    width: 100px;
+    height: 300px;
+}
+
+.imgcard {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+}
+
+.imgcard img {
+    transition: 1s;
+    /* Время эффекта */
+    display: block;
+    /* Убираем небольшой отступ снизу */
+}
+
+.imgcard img:hover {
+    transform: scale(1.2);
+    /* Увеличиваем масштаб */
+}
+
+.content {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #646464;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 18px;
+    font-family: 'Inter';
+    margin-bottom: 24px;
+}

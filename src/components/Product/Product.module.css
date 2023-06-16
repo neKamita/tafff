@@ -1,0 +1,187 @@
+.Merop{
+    width: 100%;
+    background-image: url('https://taffeine.com/_nuxt/img/banner-product.4923a80.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+
+.MeropTwo::after{
+    width: 100%;
+    height: 410px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,rgba(39,39,39,.8),#272727);
+    z-index: 1;
+}
+
+
+.MeropTwo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.text{
+    text-align: center;
+    z-index: 2;
+}
+
+
+.title{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 0;
+}
+
+
+
+.info {
+    width: 100%;
+    height: auto;
+    padding: 60px 240px;
+}
+
+.ibox{
+    height: 565px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 83.3333333333%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+
+li{
+    color: black;
+}
+
+.textt{
+    font-family: sans-serif;
+    color: black!important;
+    margin: 0 auto;
+}
+
+.stat{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+}
+
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    
+    border: 1px solid #ddd;
+  }
+
+  td{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #272727;
+    padding: 20px 24px;
+    border: 1px solid #666;
+  }
+
+  thead{
+    width: 100%;
+    height: 124px;
+
+  }
+
+  th{
+text-align: left!important;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 160%;
+    color: #272727;
+    padding: 20px 24px;
+    border: 1px solid #666;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 480px;
+    height: 300px;
+    border: 1px solid #ddd;
+  }
+
+  .btns{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -80px;
+    right: 150px;
+  }
+  
+  .one{
+    background-color: #d6eebe;
+    color: #272727;   
+     font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    margin-right: 25px;
+  }
+  
+  
+  .two{
+    background-color: #f4f4f4;
+    color: #272727;   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    height: auto;
+  }

@@ -1,0 +1,130 @@
+.secseven {
+  width: 90%;
+  text-align: center;
+  background-color: #272727;
+  border-radius: 4px;
+  padding: 60px 120px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #fff;
+  opacity: 0.8;
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto 40px;
+  font-family: "Roboto";
+}
+
+.box {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+}
+
+.mainbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxthree {
+  flex-direction: column;
+  text-align: left;
+  display: flex;
+}
+
+.content {
+  font-family: "Inter";
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.intone {
+  width: 95%;
+  display: block;
+  padding: 13px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  background-color: transparent;
+  height: auto;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  padding: 19px 20px;
+  transition: all 0.3s linear;
+}
+
+.inttwo {
+  width: 95%;
+  display: block;
+  padding: 13px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  background-color: transparent;
+  height: auto;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  padding: 19px 20px;
+  transition: all 0.3s linear;
+}
+
+.boxthree {
+  margin-top: 24px;
+}
+
+.intthree {
+  width: 97.5%;
+  min-height: 120px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  padding: 19px 20px;
+  transition: all 0.3s linear;
+  word-wrap: break-word;
+}
+input {
+  word-wrap: break-word;
+}
+
+.btn {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  height: auto;
+}
