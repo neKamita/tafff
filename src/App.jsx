@@ -11,17 +11,16 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div>
-
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Merop"  element={<Merop/>} />
-          <Route path="/Stats"  element={<Stats/>} />
-          <Route path="/Product"  element={<Product/>} />
-          <Route path="/Contact"  element={<Contact/>} />
+          <Route path="/events" element={<Merop />} />
+          <Route path="/articles" element={<Stats />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );
