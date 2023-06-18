@@ -10,31 +10,34 @@ function Navbar() {
   useEffect(() => {
     axios.get("https://admin.taffeine.com/api/menu").then((resp) => {
       let allNav = resp.data.data;
-      console.log(allNav);
       usenav(allNav);
     });
   });
 
   return (
-    <div className={h.navbar}>
-      <img className={h.logo} src={logo} alt="" />
-      <ul className={h.ul}>
-        {nav.map((item, index) => {
-          return (
-            <Links slug={item.slug} key={index} title={item.title}></Links>
-          );
-        })}
-      </ul>
-      <div className={h.df}>
-        <NavLink to="">
-          <button type="button" className={h.shop}>
-            <h1 className={h.shoptitle}>Купить Онлайн</h1>
-          </button>
+    <div className="container">
+      <div className={h.navbar}>
+        <NavLink to="/">
+          <img className={h.logo} src={logo} alt="" />
         </NavLink>
-        <button type="button" className={h.lang}>
-          <img src={flag} className={h.flag} alt="" />
-          <h1 className={h.rus}>Русский</h1>
-        </button>
+        <ul className={h.ul}>
+          {nav.map((item, index) => {
+            return (
+              <Links slug={item.slug} key={index} title={item.title}></Links>
+            );
+          })}
+        </ul>
+        <div className={h.df}>
+          <NavLink to="">
+            <button type="button" className={h.shop}>
+              <h1 className={h.shoptitle}>Купить Онлайн</h1>
+            </button>
+          </NavLink>
+          <button type="button" className={h.lang}>
+            <img src={flag} className={h.flag} alt="" />
+            <h1 className={h.rus}>Русский</h1>
+          </button>
+        </div>
       </div>
     </div>
   );

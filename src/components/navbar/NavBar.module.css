@@ -1,16 +1,13 @@
 .navbar {
-  width: 90%;
+  width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 150px;
   z-index: 4883247129873984;
-  margin: 0 auto;
   position: absolute;
   top: 0px;
-  left: 5%;
-  right: 20%;
   background-color: transparent;
 }
 
@@ -25,6 +22,7 @@
   justify-content: space-between;
   color: white;
   list-style-type: none;
+  margin-bottom: 0px;
 }
 
 .link {
@@ -52,20 +50,19 @@
   color: #272727;
   background-color: #fff;
   line-height: 24px;
-  padding: 12px 32px;
+  padding: 12px;
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid #c8c8c8;
-  font-family: "Montserrat" ,sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.shoptitle{
+.shoptitle {
   width: 100%;
   font-weight: 700;
   font-size: 18px;
+  margin-bottom: 0px;
 }
-
-
 
 .lang {
   height: 10px;
@@ -89,10 +86,8 @@
   cursor: pointer;
 }
 
-
-.df{
+.df {
   width: 25%;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
-
 }

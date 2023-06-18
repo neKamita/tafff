@@ -24,47 +24,49 @@ function SecSeven() {
     });
   };
   return (
-    <div className={h.secseven}>
-      <h1 className={h.title}>ОСТАВЬТЕ ЧЕСТНЫЙ ОТЗЫВ</h1>
-      <p className={h.text}>Оставьте честный отзыв</p>
-      <form onSubmit={Send}>
-        <div className={h.mainbox}>
-          <div className={h.box}>
-            <label className={h.content}>Имя:</label>
-            <input
-              className={h.intone}
-              onChange={valRead}
-              type="text"
-              name="name"
-              required
-            ></input>
+    <div className="container">
+      <div className={h.secseven}>
+        <h1 className={h.title}>ОСТАВЬТЕ ЧЕСТНЫЙ ОТЗЫВ</h1>
+        <p className={h.text}>Оставьте честный отзыв</p>
+        <form onSubmit={Send}>
+          <div className={h.mainbox}>
+            <div className={h.box}>
+              <label className={h.content}>Имя:</label>
+              <input
+                className={h.intone}
+                onChange={valRead}
+                type="text"
+                name="name"
+                required
+              ></input>
+            </div>
+            <div className={h.box}>
+              <label className={h.content}>
+                Номер телефона или электронная почта:
+              </label>
+              <input
+                className={h.inttwo}
+                onChange={valRead}
+                type="text"
+                name="phone"
+                required
+              ></input>
+            </div>
           </div>
-          <div className={h.box}>
-            <label className={h.content}>
-              Номер телефона или электронная почта:
-            </label>
-            <input
-              className={h.inttwo}
-              onChange={valRead}
-              type="text"
-              name="phone"
-              required
-            ></input>
-          </div>
-        </div>
 
-        <div className={h.boxthree}>
-          <label className={h.content}>Текст вопроса или запроса:</label>
-          <textarea
-            className={h.intthree}
-            onChange={valRead}
-            type="text"
-            name="message"
-            required
-          ></textarea>
-        </div>
-        <button className={h.btn}>Отправить</button>
-      </form>
+          <div className={h.boxthree}>
+            <label className={h.content}>Текст вопроса или запроса:</label>
+            <textarea
+              className={h.intthree}
+              onChange={valRead}
+              type="text"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <button className={h.btn}>Отправить</button>
+        </form>
+      </div>
     </div>
   );
 }

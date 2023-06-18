@@ -1,75 +1,71 @@
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    height: 300px;
-    border: 1px solid #ddd;
-  }
-  
-  th, td {
-    text-align: center;
-    padding: 8px;
-    
-    border: 1px solid #ddd;
-  }
-
-  td{
-    font-size: 18px;
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    color: #272727;
-    padding: 20px 24px;
-    border: 1px solid #666;
-  }
-
-  th{
-    width: 30%;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    color: #272727;
-    padding: 20px 24px;
-    border: 1px solid #666;
-  }
-
-  .secfour{
-    width: 100%;
-    padding: 0px 133px;
-    margin-bottom: 120px;
-  }
-
-
-  .img{
-    width: 450px;
-    height: 400px;
-    margin-right: 150px;
-  }
-
-  .title{
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 160%;
-    text-transform: uppercase;
-    color: #272727;
-    display: block;
-    margin-bottom: 32px;
-    text-align: center;
-    font-family: 'Inter';
-
-  }
-
-.div {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ddd;
 }
 
+th,
+td {
+  text-align: center;
+  padding: 8px;
 
-.btns{
+  border: 1px solid #ddd;
+}
+
+td {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #272727;
+  padding: 20px 24px;
+  border: 1px solid #666;
+}
+
+th {
+  width: 30%;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #272727;
+  padding: 20px 24px;
+  border: 1px solid #666;
+}
+
+.secfour {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.img {
+  width: 450px;
+  height: 400px;
+  margin-right: 150px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #272727;
+  display: block;
+  margin-bottom: 32px;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.btns {
   width: 85%;
   display: flex;
   align-items: center;
@@ -77,10 +73,10 @@ table {
   margin-top: 60px;
 }
 
-.one{
+.one {
   background-color: #d6eebe;
-  color: #272727;   
-   font-weight: 700;
+  color: #272727;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   display: flex;
@@ -93,10 +89,9 @@ table {
   height: auto;
 }
 
-
-.two{
+.two {
   background-color: #f4f4f4;
-  color: #272727;   
+  color: #272727;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;

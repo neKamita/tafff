@@ -52,81 +52,92 @@ function Contact() {
           </h1>
         </div>
       </div>
-      <div className={h.eve}>
-        <div className={h.partone}>
-          <div className={h.lineone}>
-            {con.map((item, index) => {
-              return (
-                <Contacy
-                  key={index}
-                  text={item.value}
-                  title={item.title}
-                ></Contacy>
-              );
-            })}
-          </div>
-          <div className={h.linetwo}>
-            <YMaps>
-              <div className="Mapss">
-                <Map
-                  className={h.Map}
-                  defaultState={{ center: [41.311151, 69.279737], zoom: 10 }}
-                >
-                  {" "}
-                  <Panorama defaultPoint={[41.311151, 69.279737]} />{" "}
-                  <ZoomControl
-                    options={{ size: "small", position: { top: 10, left: 10 } }}
-                  />
-                  <FullscreenControl />
-                </Map>
-              </div>
-            </YMaps>
-          </div>
-        </div>
-        <div className={h.parttwo}>
-          <form onSubmit={Send}>
-            <div className={h.Mainbox}>
-              <h1 className={h.title}>РЕГИСТРАЦИЯ</h1>
-              <div className={h.box}>
-                <label className={h.content}>Имя:</label>
-                <input
-                  className={h.intone}
-                  onChange={valRead}
-                  type="text"
-                  name="name"
-                  required
-                ></input>
-              </div>
-              <div className={h.boxtwo}>
-                <label className={h.content}>
-                  Номер телефона или электронная почта:
-                </label>
-                <input
-                  className={h.inttwo}
-                  onChange={valRead}
-                  type="text"
-                  name="phone"
-                  required
-                ></input>
-              </div>
-
-              <div className={h.boxthree}>
-                <label className={h.content}>Текст вопроса или запроса:</label>
-                <textarea
-                  className={h.intthree}
-                  onChange={valRead}
-                  type="text"
-                  name="message"
-                  required
-                ></textarea>
-              </div>
-              <div className={h.df}>
-                <input className={h.btnss} type="checkbox"></input>
-                <h1 className={h.con}>Я согласен с условиями использования</h1>
-              </div>
-              <button className={h.btn}>Регистрация</button>
+      <div className="container">
+        <div className={h.eve}>
+          <div className={h.partone}>
+            <div className={h.lineone}>
+              {con.map((item, index) => {
+                return (
+                  <Contacy
+                    key={index}
+                    text={item.value}
+                    title={item.title}
+                  ></Contacy>
+                );
+              })}
             </div>
-          </form>
+            <div className={h.linetwo}>
+              <YMaps>
+                <div className="Mapss">
+                  <Map
+                    width="100%"
+                    height="500px"
+                    className={h.Mapss}
+                    defaultState={{ center: [41.311151, 69.279737], zoom: 10 }}
+                  >
+                    {" "}
+                    <Panorama defaultPoint={[41.311151, 69.279737]} />{" "}
+                    <ZoomControl
+                      options={{
+                        size: "small",
+                        position: { top: 10, left: 10 },
+                      }}
+                    />
+                    <FullscreenControl />
+                  </Map>
+                </div>
+              </YMaps>
+            </div>
+          </div>
+          <div className={h.parttwo}>
+            <form onSubmit={Send}>
+              <div className={h.Mainbox}>
+                <h1 className={h.title}>РЕГИСТРАЦИЯ</h1>
+                <div className={h.box}>
+                  <label className={h.content}>Имя:</label>
+                  <input
+                    className={h.intone}
+                    onChange={valRead}
+                    type="text"
+                    name="name"
+                    required
+                  ></input>
+                </div>
+                <div className={h.boxtwo}>
+                  <label className={h.content}>
+                    Номер телефона или электронная почта:
+                  </label>
+                  <input
+                    className={h.inttwo}
+                    onChange={valRead}
+                    type="text"
+                    name="phone"
+                    required
+                  ></input>
+                </div>
+
+                <div className={h.boxthree}>
+                  <label className={h.content}>
+                    Текст вопроса или запроса:
+                  </label>
+                  <textarea
+                    className={h.intthree}
+                    onChange={valRead}
+                    type="text"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+                <div className={h.df}>
+                  <input className={h.btnss} type="checkbox"></input>
+                  <h1 className={h.con}>
+                    Я согласен с условиями использования
+                  </h1>
+                </div>
+                <button className={h.btn}>Регистрация</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>

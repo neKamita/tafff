@@ -17,10 +17,11 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 24px;
 }
 
 .big {
-  width: 80%;
+  width: 100%;
 }
 
 .start {
